@@ -1,0 +1,15 @@
+#file = "C:\ActiveTcl\bin/hey.rb"
+# file name
+fbname = File.basename "C:\ActiveTcl\bin/hey.rb"
+puts "File name: "+fbname 
+
+# basename
+bname = File.basename "C:\ActiveTcl\bin/hey.rb",".rb"
+puts "Base name: "+bname
+
+# file extention
+ffextn = File.extname  "C:\ActiveTcl\bin/hey.rb"   
+puts "Extention: "+ffextn 
+# path name
+path_name= File.dirname  "C:\ActiveTcl\bin/hey.rb" 
+puts "Path name: "+path_name
