@@ -1,0 +1,9 @@
+def makes30(x,y)
+    return x == 30 || y == 20 || x + y == 40
+end
+
+print makes30(10, 30),"\n"
+print makes30(10, 10),"\n"
+print makes30(15, 50),"\n"
+print makes30(20, 10),"\n"
+print makes30(20, 20),"\n"
