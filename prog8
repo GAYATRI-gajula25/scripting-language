@@ -1,0 +1,8 @@
+def temp(temp1, temp2)
+    return ( temp1 < 0 && temp2 > 100 ) || ( temp1 > 100 && temp2 < 0 );
+end
+print temp(30, 2), "\n"
+print temp(-5, -1), "\n"
+print temp(30, 30), "\n"
+print temp(-3, 7), "\n"
+print temp(-23, -1), "\n"
